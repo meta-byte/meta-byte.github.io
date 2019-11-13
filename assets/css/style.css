@@ -1,3 +1,15 @@
 body {
     background-image: url('../images/triangle-mosaic.png');
 }
+
+header{
+    background-color: #4aaaa5;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+h1 {
+    color: #4aaaa5;
+    padding: 20px;
+}

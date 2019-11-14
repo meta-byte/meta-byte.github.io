@@ -13,12 +13,27 @@ color: #dddddd;
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 100px;
+    border-bottom: #dddddd 2px;
+    border-style: solid;
 }
 
 #header_nav{
     margin: auto;
     width: 1000px;
     height: 100px;
+}
+
+ul{
+    margin: auto;
+}
+
+li{
+    float: left;
+    border-right: 2px solid #dddddd;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 header {
@@ -32,17 +47,19 @@ header {
     padding-top: 30px
 }
 
+
 nav{
     font-family: Arial, Helvetica, sans-serif;
     float: right;
     padding-top: 45px;
     color: #777777;
-    
+    margin: auto;
 }
 
 a:link {
     color: #777777;
     text-decoration: none;
+    padding: 2px;
 }
 
 a:hover {
@@ -55,6 +72,12 @@ a:hover {
     line-height: 200%;
     width: 960px;
     background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+
+#profile_picture{
+    float: left;
+    clear: both;
 }
 
 

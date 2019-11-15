@@ -108,7 +108,14 @@ button{
 
 #profile_picture{
     float: left;
+    -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
     clear: both;
+    width: 250px;
+    height: 200px;
 }
 
 

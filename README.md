@@ -7,13 +7,13 @@ All code within the project is my own. The contact form is non functional. All p
 
 ## Hosted
 
-This site is hosted courtesy of github pages
+This site is hosted courtesy of github pages.
 
 To view the site please click [here](https://meta-byte.github.io/).
 
 ## Contact Info
 
-[Email](mailto:hylander.garrett@gmail.com): hylander.garrett@gmail.com
+[Email](mailto:hylander.garrett@gmail.com): \hylander.garrett@gmail.com
 
 Phone: (801)-592-0371
 

@@ -13,7 +13,7 @@ To view the site please click [here](https://meta-byte.github.io/).
 
 ## Contact Info
 
-[Email](mailto:hylander.garrett@gmail.com): \hylander.garrett@gmail.com
+[Email](mailto:hylander.garrett@gmail.com): /hylander.garrett@gmail.com
 
 Phone: (801)-592-0371
 

@@ -13,7 +13,7 @@ color: #dddddd;
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 100px;
-    border-bottom: #dddddd 2px;
+    border-bottom: #cccccc 2px;
     border-style: solid;
 }
 
@@ -70,13 +70,15 @@ a:hover {
  
 .section {
     margin: auto;
-    padding: 20px;
+    overflow: auto;
+    padding: 30px;
     line-height: 200%;
     font-size: 100%;
     width: 960px;
     height: fit-content;
     background-color: #ffffff;
     border: solid 1px #dddddd;
+    margin-bottom: 200px;
 }
 
 form{
@@ -108,11 +110,11 @@ button{
 
 #profile_picture{
     float: left;
-    -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
     width: 250px;
     height: 200px;
     margin-top: 30px;
@@ -122,6 +124,7 @@ button{
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    padding: 0;
 }
 
 h1 {
@@ -131,6 +134,54 @@ h1 {
     font-weight: bold;
 }
 
+.placeholderLinks{
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 10px;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.links{
+    color: white;
+}
+
+#hangman{
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+#rpgGame{
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+
+#trivia{
+    clear: both;
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+
+#rutgers{
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+#rock_paper_scissors{
+    clear: both;
+    float: left;
+    margin-right: 50px;
+    margin-top: 30px;
+}
 
 footer {
     position: fixed;
@@ -138,7 +189,7 @@ footer {
     bottom: 0;
     text-align: center;
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: #666666;
     color: #ffffff;
     font-size: 75%;
@@ -146,5 +197,5 @@ footer {
     border-color: #4aaaa5;
     border-style: solid;
     margin-top: 50%;
-    padding-top: 20px;
+    padding-top: 40px;
 }

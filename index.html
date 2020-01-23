@@ -1,51 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+    <title>Garrett Howard</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-    <title>Garrett Portfolio</title>
+    <!-- Reset CSS, Materialize Icons, Materialize CSS, Style CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div id="top_bar">
-        <div id="header_nav">
-            <header>Garrett Howard</header>
+    <nav class="menu">
+        <!-- <div class="nav menu"> -->
+        <a href="#" data-target="mobile" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+        <ul class="right">
+            <li><a href="https://www.linkedin.com/in/garrett-howard-859007a0/" target="_blank"
+                    class="fa fa-linkedin"></a></li>
+            <li><a href="https://github.com/meta-byte" target="_blank" class="fa fa-github"></a></li>
+        </ul>
 
-            <nav>
-                <div>
-                    <ul>
-                        <li><a class="nav_links" href="index.html">About</a></li>
-                        <li><a class="nav_links" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="nav_links" href="contact.html">Contact</a></li>
-                    </ul>
+        </div>
+        <ul class="sidenav" id="mobile">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#education">Education</a></li> -->
+        </ul>
+    </nav>
+
+
+
+    <div class="row">
+        <div class="col s12">
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="assets/images/portfolio photo.jpg" alt="" class="responsive-img">
                 </div>
-            </nav>
+                <a name="aboutme"></a>
+                <div class="overlay">
+                    <h1 class="center white-text">HI</h1>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="section">
-        <h1>About Me</h1>
+    <div class="row">
+        <div class="container">
+            <div class="col s12 z-depth-1 aboutBox">
+                <p class="flow-text" id="about-me">
+                    I'm Garrett. I'm a software development student at Western Governors University and I'm
+                    studying full-stack web development part time at the University of Utah. I've worked in the
+                    field of IT and support for the past 5 years and I love figuring out how things work.</p>
 
-        <hr>
+            </div>
+        </div>
 
-        <img id="profile_picture" src="assets/images/me_crabbing.jpg" alt="Me after a crabbing trip">
-
-        <p>Hi! I'm Garrett. I'm a software development student at Western Governors University and I'm studying
-            full-stack web development part time at the University of Utah. I've worked in the field of IT and
-            support for the past 5 years and I love figuring out how things work.</p>
-        <br>
-        <p>Some of my hobbies include camping, hiking, hunting, building model kits, and playing video games with my
-            friends. I spend a lot of time in front of a computer screen and I think it's really important to balance
-            that with some real escapism. I was born and raised in Utah and the mountains of the Wasatch Front are in my
-            opinion the best place to go for some high adventure.</p>
-        <br>
-        <!-- <p> </p> -->
-
-        <footer>Copyright©</footer>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="assets/images/lauren-pandolfi-zD5ry8Up83M-unsplash_4032x3024.jpg" alt=""
+                        class="responsive-img">
+                </div>
+                <a name="experience"></a>
+                <div class="overlay">
+                    <h1 class="center white-text">Experience</h1>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div class="row">
+        <div class="container">
+            <div class="col s12 z-depth-1 jobcard">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img circle cardimg" src="assets/images/Canopy.png">
+                    </div>
+                    <div class="col s10">
+                        <span class="location">Canopy</span><span class="bar"> | </span><span class="jobTitle">IT
+                            Support
+                            Specialist</span>
+                        <h6>September 2019 - Present</h6>
+                        <br>
+                        <p>
+                            Dedicated IT support technician for needs within the Canopy office. Troubleshooting of
+                            hardware, software and network issues. Inventory equipment and replace as needed. Create
+                            documentation for IT policies and current infrastructure configurations. Provisioning and
+                            deprovisioning of resources for Canopy employees. Other projects as needed by the DevOps
+                            team.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 z-depth-1 jobcard">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img circle cardimg" src="assets/images/dellemc.png">
+                    </div>
+                    <div class="col s10">
+                        <span class="location">Dell EMC</span><span class="bar"> | </span><span
+                            class="jobTitle">Technical Support Engineer Level I</span>
+                        <h6>August 2017 - June 2018</h6>
+                        <br>
+                        <p>
+                            Member of the Dell EMC Recoverpoint product team. Completed Information Storage and
+                            Management v3 certification. Completed Dell EMC Recoverpoint product certification. Worked
+                            with end users to troubleshoot data protection and recovery systems. Provided end users with
+                            Dell EMC recommended storage procedures. Frequent system log analysis. Troubleshooting of
+                            both physical and virtual storage environments. Dispatch field technicians to replace or
+                            re-install components in customer environments.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 z-depth-1 jobcard">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img circle cardimg" src="assets/images/reverehealth.png">
+                    </div>
+                    <div class="col s10">
+                        <span class="location">Revere Health</span><span class="bar"> | </span><span class="jobTitle">IT
+                            Service Desk Analayst Level II</span>
+                        <h6>May 2015 - June 2017</h6>
+                        <br>
+                        <p>
+                            Support of end users in both software and hardware. Take support phone calls and dispatch
+                            analysts to off site locations. Troubleshooting of hardware and software. Replacing of
+                            computer components and the provisioning and placement of computer systems. Time as an "on
+                            call" analyst. Understanding of DNS, DHCP and basic network infrastructure.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s12 z-depth-1 jobcard">
+                <div class="row">
+                    <div class="col s2">
+                        <img class="responsive-img circle cardimg" src="assets/images/exactware.png">
+                    </div>
+                    <div class="col s10">
+                        <span class="location">Xactware</span><span class="bar"> | </span><span
+                            class="jobTitle">Structural QA Coordinator</span>
+                        <h6>August 2014 - May 2015</h6>
+                        <br>
+                        <p>
+                            Conduct construction cost research, update database with ﬁndings, analyze data & submit
+                            price changes for national subscribers.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center" id="buttoncol">
+                    <a href="assets/files/Garrett Resume.pdf" download="Garrett_Howard_Resume"
+                        class="waves-effect waves-light btn center" id="download"><i
+                            class="material-icons right">file_download</i>Download My
+                        Resume</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="assets/images/greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" alt="" class="responsive-img">
+                </div>
+                <a name="projects"></a>
+                <div class="overlay">
+                    <h1 class="center white-text">Projects</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/passwordgenerator.png" class="responsive-img" alt="password generator">
+                        <span class="card-title">Password Generator</span>
+                    </div>
+                    <div class="card-content">
+                        <p>My first real Javascript project, this password generator is designed to allow a user to
+                            create a secure password of a custom length using lowercase letters, uppercase letters,
+                            numbers, and symbols.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/password_generator/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/password_generator" target="_blank">See the Repo</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/weatherdashboard.png" class="responsive-img" alt="weather dashboard">
+                        <span class="card-title">Weather Dashboard</span>
+                    </div>
+                    <div class="card-content">
+                        <p>An app that presents accurate weather information via the
+                            Open Weather API. Previous searches are remembered and the last
+                            searched city is presented on page load. The goal was to practice the imnplementation of a
+                            third party API update the page dynamically.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/weather_dashboard/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/weather_dashboard" target="_blank">See the Repo</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/codingquiz.png" class="responsive-img" alt="coding quiz">
+                        <span class="card-title">Coding Quiz App</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I created this quiz app to test my ability to dynamically generate and alter HTML elements
+                            with Javascript and JQuery. It tests users on their knowledge of a chosen topic, in this
+                            case web development. The questions are stored in an array on a seperate Javascript file.
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/coding_quiz/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/coding_quiz" target="_blank">See the Repo</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="assets/images/skiresortreport.png" class="responsive-img" alt="ski resort app">
+                        <span class="card-title">Ski Resort Weather App</span>
+                    </div>
+                    <div class="card-content">
+                        <p>An application that utilizes the Weather Unlocked API to search snow depth and weather
+                            conditions at a specific ski resort. It then displays that info in a dashboard and includes
+                            a google map with a pin at the resort's location.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://meta-byte.github.io/Ski_Resort_Weather_Report/" target="_blank">See it Live</a>
+                        <a href="https://github.com/meta-byte/Ski_Resort_Weather_Report" target="_blank">See the
+                            Repo</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer menu">
+        <div class="row">
+            <div class="col s12 center">
+                <a href="https://www.linkedin.com/in/garrett-howard-859007a0/" target="_blank"
+                    class="fa fa-linkedin footer-icon linkedin"></a>
+                <a href="https://github.com/meta-byte" target="_blank" class="fa fa-github footer-icon github"></a>
+                <a href="mailto:hylander.garrett@gmail.com?" class="fa fa-envelope footer-icon email"></a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        </div>
+    </footer>
+
+    <!-- jQuery, Materialize.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/javascript/init.js"></script>
 
 </body>
 

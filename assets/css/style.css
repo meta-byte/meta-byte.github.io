@@ -32,13 +32,15 @@
 .aboutBox{
     background-color: teal;
     color: white;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important; 
 }
 #about-me{
     margin: 20px;
 }
 .jobcard{
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
       color: white;
       background-color: teal;
       padding: 20px !important;
@@ -59,8 +61,18 @@
 text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
 }
 #buttoncol{
-    margin-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 #download{
     background-color: #ff6105;
+}
+
+.row{
+margin: 0px !important;
+}
+
+.portfolioCard{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
